@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #3c6382;
+  padding: 45px 20px;
+}
+
+header h1 {
+  color: white;
+}
+
+nav h1 {
+  color: white;
+}
+
+section {
+  height: 900px;
+  background-color: #82ccdd;
+  background-image: url(../img/patron-hexagonal_1051-833.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+section {
+  height: auto;
+  width: 75%;
+  /* flotacion */
+  float: left;
+  /* clear: both; */
+}
+
+.articulos {
+  padding: 10px 30px;
+}
+
+.articulos article {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e55039;
+  padding: 20px 10px;
+  background-color: rgba(112, 161, 255, 0.5);
+  border-radius: 5px;
+}
+
+nav {
+  background-color: #0a3d62;
+  /* height: 50px; */
+  /* text-align: center; */
+  /* padding: 23px; */
+}
+
+aside {
+  background-color: #38ada9;
+  width: 25%;
+  float: right;
+  box-sizing: border-box;
+  padding: 20px;
+  background-image: url(../img/patron-hexagonal_1051-833.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+aside article {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e55039;
+  padding: 20px 10px;
+  background-color: rgba(112, 161, 255, 0.5);
+  border-radius: 5px;
+}
+footer {
+  /* Clear limpia todas las flotaciones de los elementos anteriores valores: both| left| rigth| */
+  clear: both;
+  background-color: #3c6382;
+  padding: 45px 20px;
+  /* display: none; se usa para eliminar un elemento en pantalla */
+}
+
+section article img {
+  width: 300px;
+  float: left;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+nav li {
+  display: inline-block;
+  /* float: left; */
+  list-style: none;
+  margin-right: 20px;
+  width: 120px;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+nav li a {
+  color: white;
+}
+
+/* Display => block| inline|inline-block|none*/
+
+article strong {
+  display: block;
+}
+
+/* article p {
+  display: inline;
+}
+article {
+  display: inline;
+} */

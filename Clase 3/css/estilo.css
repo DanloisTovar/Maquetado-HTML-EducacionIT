@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #0d4d8a;
+}
+header h1 {
+  color: white;
+}
+
+/* se debe colocar el display flex al padre y no a los hijos del elemento!, es decir que no debo colocarle el desplay flex a section .caja (hijo) y debe colocarse directo al section (el padre). se le coloca al que contiene las cajas no a las cajas mismas o columnas mismas  */
+
+section {
+  background-color: #a4b0be;
+  padding: 20px;
+  display: flex;
+  /* height: 700px; */
+  /* flex direction nos permite manjar la direccion en que se van a mostrar los elementos => row ->fila (por defecto) |column ->columna| row reverse| column reverse */
+  /* flex-direction: column; */
+
+  /* justify-content: sirve para oerdenar los elementos de manera horizontal   */
+  justify-content: space-around;
+  /* align-items:  */
+
+  /* align-items: center; */
+}
+
+section .caja {
+  width: 200px;
+  /* height: 200px; */
+  background-color: #e55039;
+  padding: 20px;
+  margin: 20px 20px;
+  border: 2px solid white;
+}
+
+section .caja p {
+  color: white;
+  /* display: inline; */
+  text-align: center;
+}
+
+section .caja p strong {
+  /* display: block; */
+}
+nav {
+  background-color: #60a3bc;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  width: 150px;
+}
+
+/* pagimna para practicar flex box : flexbox froggy */
+
+/* Pseudo clases:
+
+selector: pseudo{
+}
+
+Pseudo clases de la etiqueta <a><a/>
+
+:link
+:visited
+:hover
+:active*/
+
+nav li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* quede en le minuto 01:24 */

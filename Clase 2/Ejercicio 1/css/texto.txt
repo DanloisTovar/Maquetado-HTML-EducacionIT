@@ -1,0 +1,10 @@
+Elemento:
+width: 200px
+margin: 20px
+subtotal: 240px;
+padding: 20px;
+subtotal: 280px;
+border: 5px;
+subtotal: 290;
+
+para que solo mida 200px de width  se utilizara la propiedad: box-sizing.

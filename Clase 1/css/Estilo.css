@@ -1,0 +1,96 @@
+/* Para importar las fonts de google utilizamos @import url(''); */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700,700i,800,900,900i&display=swap');
+
+/* COMENTARIO */
+
+/* selector {
+    propiedad: valor; 
+    propiedad: valor; 
+}
+
+*/
+
+/* Selector universal */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Slector de etiqueta */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #78e08f;
+}
+
+/* herencias */
+
+footer h1 {
+  color: #b71540;
+}
+
+/* selector id */
+
+#redes {
+  background-color: #b8e994;
+}
+
+#redes a {
+  text-decoration: none;
+}
+
+.face {
+  color: #1e3799;
+}
+
+.insta {
+  color: #e55039;
+}
+
+.resaltar {
+  text-transform: uppercase;
+  color: #eb2f06;
+}
+
+p.resaltar {
+  text-decoration: underline;
+  line-height: 20px;
+}
+
+aside p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* selector compuesto */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+strong {
+  color: #3c6382;
+}
+
+/* Uso de color utilizar el nombre de color en ingles (red, blue, green, black) */
+
+header {
+  background-color: #fad390;
+}
+
+nav {
+  background-color: rgb(56, 173, 169);
+}
+
+nav h1 {
+  color: #ffffff;
+}
